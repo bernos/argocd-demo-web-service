@@ -10,6 +10,6 @@ spec:
   ports:
   - name: http
     port: 8000 # {"$kpt-set":"port"}
-    targetPort: __container-port__ # {"$kpt-set":"container-port"}
+    targetPort: 80 # {"$kpt-set":"container-port"}
   selector:
     app: web-service # {"$kpt-set":"name"}

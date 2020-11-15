@@ -19,6 +19,7 @@ openAPI:
         setter:
           name: container-port
           value: "80"
+          isSet: true
     io.k8s.cli.setters.image:
       x-k8s-cli:
         setter:
