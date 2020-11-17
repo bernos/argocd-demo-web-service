@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: web-service # {"$kpt-set":"name"}
-  namespace: project-two # {"$kpt-set":"namespace"}
+  # namespace: project-two # {"$kpt-set":"namespace"}
 spec:
   replicas: 1 # {"$kpt-set":"replicas"}
   selector:
