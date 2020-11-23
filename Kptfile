@@ -50,4 +50,5 @@ openAPI:
       x-k8s-cli:
         setter:
           name: replicas
-          value: "1"
+          value: "3"
+          isSet: true
